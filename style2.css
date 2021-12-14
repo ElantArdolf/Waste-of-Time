@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Raleway:wght@200&display=swap');
+@font-face {
+	font-family: "BOOTER - Zero Zero";
+	src: url("fonts/Booter - Zero Zero.woff"), src: url("fonts/Booter - Zero Zero.woff2") format(woff)
+    font-weight:  normal;
+    font-style: normal;
+
+}
+* {
+	box-sizing: border-box;
+	font-family: Raleway;
+	color: rgb(111, 82, 128);
+}
+html, body { 
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul {
+	margin: 0.5;
+	margin-top: 0;
+}
+.nav li {
+	display: inline;
+
+}
+.nav a {
+	padding: .5em ;
+	text-decoration: none;
+	color: white;
+}
+.nav a:hover {
+	background-color: rgba(111, 82, 128, .3);
+}
+.main-nav{
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: lighter;
+	border-bottom: 1.5px solid rgba(111, 82, 128, .8);
+}
+.main-nav li {
+	padding: 0 5%;
+
+}
+.header1 {
+	background-image: url("images/background.jpeg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    padding: 30px;
+}
+.web-name {
+	text-align: center;
+	margin: 0;
+	font-size: 4em;
+    font-family: BOOTER - Zero Zero;
+    font-weight: normal;
+    padding-top: 0.52em;
+ }
+.web-name-large {
+	font-size: 9ems;
+}
+.home-content {
+	margin: 1em;
+}
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 1.5em;
+}
+.section-header {
+	font-family: Metal Mania;
+	font-weight: normal;
+	text-align: center;
+	font-size: 2.5em;
+}
